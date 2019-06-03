@@ -8,7 +8,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:q!
+:q
 :wq
+:w
 
 # Search String History (newest to oldest):
 
@@ -19,18 +22,171 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+"1	LINE	0
+	    - mongo-service
+"2	LINE	0
+	    depends_on:
+"3	LINE	0
+	    build: ./email-service
+"4	LINE	0
+	    image: benm96/email-service:latest
+"5	LINE	0
+	  email-service:
+"6	LINE	0
+	      aes-encryp
+""-	CHAR	0
+	e
 
 # File marks:
-'0  4  22  ~/docker-compose.yaml
+'0  1  0  ~/authentication-client/Dockerfile
+'1  40  18  ~/docker-compose.yaml
+'2  47  4  ~/docker-compose.yaml
+'3  15  16  ~/docker-compose.yaml
+'4  22  0  ~/docker-compose.yaml
+'5  24  0  ~/docker-compose.yaml
+'6  15  20  ~/docker-compose.yaml
+'7  12  0  ~/docker-compose.yaml
+'8  4  30  ~/mongo-service/Dockerfile
+'9  1  0  ~/mongo-service/Dockerfile
 
 # Jumplist (newest first):
--'  4  22  ~/docker-compose.yaml
+-'  1  0  ~/authentication-client/Dockerfile
+-'  40  18  ~/docker-compose.yaml
 -'  1  0  ~/docker-compose.yaml
+-'  47  4  ~/docker-compose.yaml
+-'  15  16  ~/docker-compose.yaml
+-'  22  0  ~/docker-compose.yaml
+-'  24  0  ~/docker-compose.yaml
+-'  12  0  ~/docker-compose.yaml
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  22  ~/docker-compose.yaml
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  4  30  ~/mongo-service/Dockerfile
+-'  1  0  ~/mongo-service/Dockerfile
+-'  7  41  ~/mongo-service/Dockerfile
+-'  17  5  ~/docker-compose.yaml
 
 # History of marks within files (newest to oldest):
 
+> ~/authentication-client/Dockerfile
+	"	1	0
+	^	1	0
+	.	1	0
+	+	2	0
+	+	1	0
+
 > ~/docker-compose.yaml
-	"	4	22
-	^	4	23
-	.	5	0
-	+	5	0
+	"	40	18
+	^	40	19
+	.	26	20
+	+	15	0
+	+	12	21
+	+	15	20
+	+	15	5
+	+	46	3
+	+	47	3
+	+	40	3
+	+	34	3
+	+	15	3
+	+	23	0
+	+	15	0
+	+	15	16
+	+	23	5
+	+	34	4
+	+	40	4
+	+	46	4
+	+	47	4
+	+	24	10
+	+	25	25
+	+	26	20
+
+> ~/mongo-service/Dockerfile
+	"	4	30
+	^	4	31
+	.	4	30
+	+	7	41
+	+	3	15
+	+	4	0
+	+	4	30
