@@ -1,3 +1,3 @@
 # login
-Creating CI for a login in application
-docker-compose up -d
+To deploy the login application run "docker-compose up -d"
+
