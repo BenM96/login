@@ -40,7 +40,7 @@
 	e
 
 # File marks:
-'0  1  21  ~/jenk-build-trig
+'0  1  1  ~/jenk-build-trig
 '1  3  33  ~/.env
 '2  4  32  ~/.env
 '3  2  2  ~/.env
@@ -52,7 +52,7 @@
 '9  22  30  ~/docker-compose.yaml
 
 # Jumplist (newest first):
--'  1  21  ~/jenk-build-trig
+-'  1  1  ~/jenk-build-trig
 -'  3  33  ~/.env
 -'  1  0  ~/.env
 -'  4  32  ~/.env
@@ -149,15 +149,14 @@
 -'  4  30  ~/mongo-service/Dockerfile
 -'  1  0  ~/mongo-service/Dockerfile
 -'  7  41  ~/mongo-service/Dockerfile
--'  4  30  ~/mongo-service/Dockerfile
 
 # History of marks within files (newest to oldest):
 
 > ~/jenk-build-trig
-	"	1	21
-	^	1	22
-	.	1	21
-	+	1	21
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
 
 > ~/.env
 	"	3	33
